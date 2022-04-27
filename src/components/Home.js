@@ -1,8 +1,8 @@
 const Home = () => {
   return (
     <div className="home-title">
-      <p>Welcome to my Video Player</p>
-      <p>Use search bar to find videos</p>
+      <h1>Welcome to my Video Player</h1>
+      <h1>Use search bar to find videos</h1>
     </div>
   );
 };

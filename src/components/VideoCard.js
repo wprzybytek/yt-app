@@ -11,7 +11,7 @@ const VideoCard = ({ video }) => {
       <div className="row no-gutters">
         <div className="col-sm-3">
           <img
-            src={video.snippet.thumbnails.default.url}
+            src={video.snippet.thumbnails.high.url}
             className="card-img-top"
             alt="..."
           />
